@@ -12,8 +12,6 @@
 typedef struct Motor_t Motor;
 typedef struct Wheelbase_t Wheelbase;
 
-extern int (*wheelbase_tick)(void);
-
 struct Motor_t
 {
 	double x;
